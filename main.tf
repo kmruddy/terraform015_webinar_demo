@@ -14,8 +14,3 @@ provider "random" {
 resource "random_pet" "server" {
   prefix = var.name
 }
-
-resource "random_password" "pwd" {
-  length  = 10
-  special = true
-}
