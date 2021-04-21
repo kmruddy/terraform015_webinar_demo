@@ -14,3 +14,7 @@ provider "random" {
 resource "random_pet" "server" {
   prefix = var.name
 }
+
+resource "random_pet" "client" {
+  prefix = var.client
+}
