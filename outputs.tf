@@ -4,4 +4,5 @@ output "animal" {
 
 output "pwd" {
   value = random_password.pwd.result
+  sensitive = true
 }
